@@ -2,14 +2,39 @@ import styles from './Navbar.module.css';
 import { ActiveLink } from "../ActiveLink/ActiveLink";
 
 
-export const Navbar = () => {
-  return (
+const menuItems = [
+  {
+    text: 'Home',
+    href: '/'
+  },
+  {
+        text: 'About',
+        href: '/about'
+      },
+      {
+        text: 'Contact',
+        href: '/contact'
+      },    
+      {
+        text: 'Edwar',
+        href: '/edwar'
+      },
+      {
+        text: 'Pricing',
+        href: '/pricing'
+      },
+    ];
+  
+  export const Navbar = () => {
+  
+    return (
     <div>
-        <nav className={styles['menu-container']}>     
-        <ActiveLink text= "Home" href='/'/>
-        <ActiveLink text="Edwar" href='/edwar'/>
-        <ActiveLink text="About" href='/about'/>
-        <ActiveLink text="Contact" href='/contact'/>
+        <nav className={styles['menu-container']}> 
+       {
+        menuItems.map((item) => 
+        <ActiveLink key={ item.href } text={ item.text } href={ item.href }/>
+        )
+       }
       </nav>
     </div>
   )
