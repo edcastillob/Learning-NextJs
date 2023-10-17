@@ -1,20 +1,23 @@
-import Head from 'next/head'
+
+import React from 'react';
 import Link from 'next/link'
 import { MainLayout } from '../../components/layouts/MainLayout'
-import { Navbar } from '../../components/Navbar'
 
-export default function ContactPage() {
+
+export default function HomePage() {
+
   return (
     <MainLayout>
-        <h1>Contact Page</h1>
-       
-        <h1 className={'title'}>
+        <h1>Pricing Page</h1>
+        
+        <h1 className="title">
+          {/* Ir a <a href="/about">About</a> */}
           Ir a <Link href="/">Home</Link>
         </h1>
 
         <p className={'description'}>
           Get started by editing{' '}
-          <code className={'code'}>pages/contact.jsx</code>
+          <code className={'code'}>pages/pricing/index.jsx</code>
         </p>
     </MainLayout>
   )

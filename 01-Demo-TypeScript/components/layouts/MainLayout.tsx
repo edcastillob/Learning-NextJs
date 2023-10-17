@@ -3,6 +3,7 @@ import { Navbar } from '../Navbar';
 
 
 import styles from './MainLayout.module.css';
+import React from 'react';
 
 export const MainLayout = ({ children }) => {
     return (
