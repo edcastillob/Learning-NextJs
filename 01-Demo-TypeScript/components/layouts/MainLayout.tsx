@@ -1,16 +1,17 @@
+import { FC } from 'react';
+
 import Head from 'next/head';
+
 import { Navbar } from '../Navbar';
-
-
 import styles from './MainLayout.module.css';
-import React from 'react';
 
-export const MainLayout = ({ children }) => {
+
+export const MainLayout: FC = ({ children }) => {
     return (
         <div className={styles.container}>
           
           <Head>
-            <title>Home - Fernando</title>
+            <title>Home - Next.Js</title>
             <meta name="description" content="Home Page" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
