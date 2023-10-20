@@ -1,11 +1,14 @@
 import NextLink from "next/link";
 import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
+import RootLayout from "./layout";
+
 
 
 export default function Home() {
+
 	return (
-		<>
+		<RootLayout title="Listado de Pokemons">
 				<Link
 					isExternal
 					as={NextLink}
@@ -14,12 +17,7 @@ export default function Home() {
 				>
 					Documentation
 				</Link>
-		</>
-		
-
-			
-				
-			
+		</RootLayout>			
 	
 	);
 }
