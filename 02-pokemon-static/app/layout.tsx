@@ -14,7 +14,9 @@ export default function RootLayout({ children, title }: { children: React.ReactN
       <body>
       <Navbar />
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>      
+        <main style={{ padding: '0px 20px'}}>
           {children}
+        </main>
         </Providers>
       </body>
     </html>

@@ -7,7 +7,7 @@ export default function Home() {
 
 	return (
 		<RootLayout title="Listado de Pokemons">
-			<Button>Click me</Button>	
+			<Button>ED!</Button>	
 		</RootLayout>			
 	
 	);
