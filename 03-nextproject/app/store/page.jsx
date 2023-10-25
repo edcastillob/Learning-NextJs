@@ -1,0 +1,10 @@
+
+
+export default function Store () {
+  return (
+  <>
+    <h1>Store</h1>
+    <span>Tienda on line</span>
+  </>
+  )
+}
