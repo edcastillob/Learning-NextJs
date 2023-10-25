@@ -1,13 +1,11 @@
 import Link from "next/link";
+import "./NavbarStore.css"
 
 export default function NavbarStore() {
   return (
-    <>
-      <h1> Categories</h1>
+    <nav className="navbarStore">
       <ul>
-        <li>
-          <Link href="/store"> Store Go!</Link>
-        </li>
+        
         <li>
           <Link href="/store/computer"> Computer</Link>
         </li>
@@ -16,6 +14,6 @@ export default function NavbarStore() {
         </li>
        
       </ul>
-    </>
+    </nav>
   );
 }

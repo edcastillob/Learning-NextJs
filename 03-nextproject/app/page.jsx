@@ -5,20 +5,21 @@ import nextImg from "../public/next.svg";
 export default function HomePage() {
   return (
     <>
-      <h1> Home</h1>
-      <section>
-        <span>Practice Next Js!</span>
-        <p>
+      
+      <div>
+        <h1 className="text-2xl mt-3 ml-4" >Practice Next Js!</h1>
+        <p className="text-1xl-slate-200 mb-4 ml-4">
           Is necesary to be studing many english for to be programming in
           tecnologies what  enterprise many it's searching for example <strong>NextJs</strong>
         </p>
-        <Image 
+        <Image
+        className="mx-auto" 
         src={nextImg}
         width={200}
         height={200}
         alt="NextJs"
         ></Image>
-      </section>
+      </div>
     </>
   );
 }

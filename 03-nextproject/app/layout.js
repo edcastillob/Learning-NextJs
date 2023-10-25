@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/Footer";
 import Navbar from "../components/navbar/page";
 import { Roboto } from 'next/font/google';
+import './globals.css';
 
 export const metadata = {
   title: " Next App",

@@ -1,0 +1,17 @@
+.navbarStore {
+    background: #fdfffd;
+    color: black;
+    display: flex;
+    justify-content:center;
+    padding: 0 4rem;
+    align-items: center;
+}
+
+.navbarStore ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbarStore ul li {
+    list-style: none;
+}

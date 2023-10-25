@@ -6,9 +6,8 @@ export const metadata = {
 };
 function AboutPage() {
   return (
-    <div>
-      <h1>About</h1>
-      <hr />
+    <div className="ml-4 text-center">    
+     
       <h3>Hello,</h3>
       <p>
         I'm <b>Edwar Castillo,</b> System Engineer and Full Stack Web Developer
@@ -21,7 +20,7 @@ function AboutPage() {
         successfully led projects and teams
       </p>
 
-      <Image src={code} width={400} height={400} alt="Code"></Image>
+      <Image className="mx-auto mt-4" src={code} width={400} height={400} alt="Code"></Image>
     </div>
   );
 }

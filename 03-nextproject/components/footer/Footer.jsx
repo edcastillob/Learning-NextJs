@@ -5,14 +5,16 @@ import github from "../../public/github.png";
 import linkedin from "../../public/linkedIn.png";
 import email from "../../public/email.png";
 import whatsapp from "../../public/whatsapp.png";
+import "./Footer.css"
 
 
 export default function Footer () {
   return (
-    <footer >
-      
-      <div>
-      <Link
+    <footer className="footer py-5">
+      <h2 className="text-1xl font-bold">© NextJs 2023 - <strong>Ing Edwar Castillo | Full Stack Developer </strong></h2>
+     
+      <div className="redes">
+        <Link
           href="https://github.com/edcastillob"
           target="_blank"
           rel="noopener noreferrer"
