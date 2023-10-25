@@ -1,4 +1,6 @@
 import Image from "next/image";
+import nextImg from "../public/next.svg";
+
 
 export default function HomePage() {
   return (
@@ -11,7 +13,7 @@ export default function HomePage() {
           tecnologies what  enterprise many it's searching for example <strong>NextJs</strong>
         </p>
         <Image 
-        src='./next.svg'
+        src={nextImg}
         width={200}
         height={200}
         alt="NextJs"
