@@ -1,5 +1,5 @@
 import Image from "next/image";
-import nextImg from "../public/next.svg";
+import nextImg from "@public/next.svg";
 
 
 export default function HomePage() {

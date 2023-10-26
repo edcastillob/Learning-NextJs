@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import github from "../../public/github.png";
-import linkedin from "../../public/linkedIn.png";
-import email from "../../public/email.png";
-import whatsapp from "../../public/whatsapp.png";
+import github from "@public/github.png";
+import linkedin from "@public/linkedIn.png";
+import email from "@public/email.png";
+import whatsapp from "@public/whatsapp.png";
 import "./Footer.css"
 
 

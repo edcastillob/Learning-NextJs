@@ -1,5 +1,5 @@
 import Image from "next/image";
-import code from "../../public/code.png";
+import code from "@public/code.png";
 
 export const metadata = {
   title: " Next App- About",

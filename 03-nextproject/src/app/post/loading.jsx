@@ -1,4 +1,4 @@
-import loading from "../../public/loading.gif";
+import loading from "@public/loading.gif";
 import Image from "next/image";
 
 const Loading = () => {

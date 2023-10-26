@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import PC01 from "@/public/images/PC01.webp";
-import PC02 from "@/public/images/PC02.webp";
+import PC01 from "@public/images/PC01.webp";
+import PC02 from "@public/images/PC02.webp";
 import "./Computer.css"
 export const metadata = {
   title: " Store - Computer",  

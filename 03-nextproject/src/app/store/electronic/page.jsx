@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import TV01 from "@/public/images/TV01.webp";
-import RT01 from "@/public/images/RT01.webp";
+import TV01 from "@public/images/TV01.webp";
+import RT01 from "@public/images/RT01.webp";
 import "./Electronic.css"
 export const metadata = {
   title: " Store - Electronic",  
