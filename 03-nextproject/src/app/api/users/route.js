@@ -6,9 +6,15 @@ export async function GET(){
     
     return NextResponse.json(data)
 }
-export async function POST(){
+export async function POST(request){
+    const data = await request.json()
+    const { name, lastname } = data;
+    console.log(name)
+    console.log(lastname)
     return NextResponse.json({
-        message: "Posteando Datos!"
+        message: "Datos recibidos!!",
+        dates: `${name} ${lastname}`
+
     })
 }
 export async function PUT(){
