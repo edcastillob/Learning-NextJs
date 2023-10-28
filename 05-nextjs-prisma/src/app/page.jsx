@@ -1,6 +1,15 @@
-import TaskCard from "@/components/taskCard/TaskCard";
 import { prisma } from "@/libs/prisma";
+import TaskCard from "@/components/taskCard/TaskCard";
 
+
+async function getTaskAll() {
+  // const res = await fetch("http://localhost:3000/api/task");
+  // return await res.json();
+  return await prisma.task.findMany();
+
+}
+
+export const dynamic = 'force-dynamic'
 
 const HomePage = async () => {
   const tasks = await getTaskAll();
@@ -19,8 +28,4 @@ const HomePage = async () => {
 
 export default HomePage;
 
-async function getTaskAll() {
-  // const res = await fetch("http://localhost:3000/api/task");
-  // return await res.json();
-  return await prisma.task.findMany();
-}
+
