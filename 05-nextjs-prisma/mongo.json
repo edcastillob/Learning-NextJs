@@ -1,0 +1,13 @@
+
+   [ {
+        "name": "mouse",
+        "description": "razer mouse",
+        "tags": ["computer", "gaming"],
+        "quuantity": 14
+    },
+    {
+        "name": "monitor",
+        "description": "LG monitor",
+        "tags": ["computer", "gaming"],
+        "quuantity": 3
+    }]
