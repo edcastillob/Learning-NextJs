@@ -37,7 +37,11 @@ export async function POST(request: Request) {
 
     const saveUser = await user.save();
     console.log(saveUser);
-    return NextResponse.json(saveUser);
+    return NextResponse.json({
+      email: saveUser.email,
+      fullname: saveUser.fullname,
+      _id: saveUser.id
+    });
   } catch (error) {
     console.log(error);
     if (error instanceof Error) {
