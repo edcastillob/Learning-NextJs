@@ -32,27 +32,27 @@ const RegisterPage = () => {
 };
 
   return (
-    <div>
-      <form className="container mx-auto" onSubmit={handleSubmit}>
+    <div className="container justify-center h-[calc(100vh-4rem)] flex items-center">    
+    <form onSubmit={handleSubmit} className="bg-neutral-950 px-8 py-10 w-3/12 rounded-md">
         {error && <div className="bg-red-500 text-white p-2 mb-2">{error}</div>}
-        <h1>SignUp</h1>
+        <h1 className="text-4xl font-bold mb-7">SignUp</h1>
         <input
           type="text"
           placeholder="John Doe"
           name="fullname"
-          className="bg-zinc-800 px-4 py-2 block mb-2"
+          className="bg-zinc-800 px-4 py-2 block mb-2 w-full"
         />
         <input
           type="email"
           placeholder="john-doe@mail.com"
           name="email"
-          className="bg-zinc-800 px-4 py-2 block mb-2"
+          className="bg-zinc-800 px-4 py-2 block mb-2 w-full"
         />
         <input
           type="password"
           placeholder="**********"
           name="password"
-          className="bg-zinc-800 px-4 py-2 block mb-2"
+          className="bg-zinc-800 px-4 py-2 block mb-2 w-full"
         />
         <button className="bg-indigo-500 px-4 py-2">Register</button>
       </form>
